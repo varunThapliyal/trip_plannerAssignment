@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/trip_plannerAssignment/static/css/main.5f3a276e.chunk.css",
+    "main.js": "/trip_plannerAssignment/static/js/main.bf33c1c4.chunk.js",
+    "main.js.map": "/trip_plannerAssignment/static/js/main.bf33c1c4.chunk.js.map",
+    "runtime-main.js": "/trip_plannerAssignment/static/js/runtime-main.fff4809c.js",
+    "runtime-main.js.map": "/trip_plannerAssignment/static/js/runtime-main.fff4809c.js.map",
+    "static/js/2.2997bc56.chunk.js": "/trip_plannerAssignment/static/js/2.2997bc56.chunk.js",
+    "static/js/2.2997bc56.chunk.js.map": "/trip_plannerAssignment/static/js/2.2997bc56.chunk.js.map",
+    "index.html": "/trip_plannerAssignment/index.html",
+    "precache-manifest.3cde3abc1575ea9349fad202d09af12e.js": "/trip_plannerAssignment/precache-manifest.3cde3abc1575ea9349fad202d09af12e.js",
+    "service-worker.js": "/trip_plannerAssignment/service-worker.js",
+    "static/css/main.5f3a276e.chunk.css.map": "/trip_plannerAssignment/static/css/main.5f3a276e.chunk.css.map",
+    "static/js/2.2997bc56.chunk.js.LICENSE.txt": "/trip_plannerAssignment/static/js/2.2997bc56.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fff4809c.js",
+    "static/js/2.2997bc56.chunk.js",
+    "static/css/main.5f3a276e.chunk.css",
+    "static/js/main.bf33c1c4.chunk.js"
+  ]
+}
