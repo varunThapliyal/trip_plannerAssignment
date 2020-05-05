@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import Form from'./Form/form.component';
+import {connect} from 'react-redux';
 import './App.css';
+import UseUser from './User/user.component'
 
-function App() {
+
+function App({users}) {
+  // console.log(users);
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Form/>
+
+        {
+         
+         users.map((user)=>(
+         <UseUser key={user.id} user={user}/>
+         ))
+        }
     </div>
   );
 }
 
-export default App;
+
+const mapStateToProps=state=>({
+  users:state.user.Users
+})
+
+export default connect(mapStateToProps)(App) ;

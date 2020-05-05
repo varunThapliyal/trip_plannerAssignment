@@ -1,0 +1,87 @@
+.mainDiv{
+
+    margin:80px 40px;
+    box-shadow:10px 10px 10px grey;
+}
+.userName{
+    text-align: left;
+}
+
+.comright{
+    margin-right: 30%;
+}
+.common_div{
+   padding:15px;
+}
+.cl{
+    margin:12px;
+}
+  
+.btnDelete{
+    border-radius: 10px;
+    padding:10px;
+    margin-bottom: 20px;
+}
+.popup-content{
+    border-radius: 10px;
+    position: relative;
+}
+.modal{
+    background-image:linear-gradient(to left,#ddd6f3,#faaca8);
+    font-family: 'Roboto';
+}
+.button{
+position: absolute;
+top:20px;
+right: 20px;
+background-color: linen;
+border-radius: 10px;
+padding:10px;
+letter-spacing: 3px;
+font-weight: 600;
+font-family:'Roboto' ;
+}
+
+
+input[type='text']{
+    border-radius: 10px;
+    padding:5px 10px;
+    box-shadow: 2px 2px 8px black;
+}
+
+.form-group{
+    padding:20px;
+    text-align: left;
+}
+
+label{
+    margin-right: 20px;
+}
+.btn-tiny{
+    border-radius: 20%;
+}
+.count{
+    padding:0px 5px;
+}
+select{
+    padding:5px 10px;
+    border-radius: 10px;
+}
+.com{
+    margin-left: 40px;
+}
+.close{
+    position: absolute;
+    right:15px;
+    top:15px;
+}
+.header{
+    padding:15px;
+}
+.save_btn{
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px black;
+    
+}
